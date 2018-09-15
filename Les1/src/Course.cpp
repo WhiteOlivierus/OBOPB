@@ -9,3 +9,14 @@ Course::Course(string nameCourse, string timeDate[])
         _timeDate[i] = timeDate[i];
     }
 }
+
+void Course::AddStudents(Student student)
+{
+    for (int i; i < sizeof(_students); i++)
+    {
+        if (_students != nullptr)
+        {
+            _students[i] = student;
+        }
+    }
+}
