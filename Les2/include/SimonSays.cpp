@@ -53,8 +53,9 @@ void SimonSays::HandleInput()
 
 bool SimonSays::CheckInput()
 {
-    Print(randomNumbers);
-    Print(inputNumbers);
+    // This was for checking if the input was the same as the numbers in console
+    // Print(randomNumbers);
+    // Print(inputNumbers);
 
     return randomNumbers == inputNumbers;
 }
