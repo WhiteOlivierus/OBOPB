@@ -1,10 +1,6 @@
 #include "Person.h"
 
-Person::Person(int age, std::string name)
-{
-    Person::age = age;
-    Person::name = name;
-}
+Person::Person(int age, const std::string &name) : age(age), name(name) {}
 
 int Person::getAge()
 {
@@ -18,5 +14,5 @@ std::string Person::getName()
 
 std::string Person::Info()
 {
-    return "This is " + name + ".";
+    return "This is " + name + ". ";
 }

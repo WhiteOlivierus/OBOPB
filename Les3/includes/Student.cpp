@@ -2,5 +2,5 @@
 
 std::string Student::Info()
 {
-    return Person::Info() + " He is in grade " + std::to_string(grade) + '.';
+    return Person::Info() + "He is in grade " + std::to_string(grade) + '.';
 }

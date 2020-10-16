@@ -8,7 +8,7 @@ protected:
     std::string name;
 
 public:
-    Person(int age, std::string name);
+    Person(int age, const std::string &name);
 
     int getAge();
     std::string getName();
