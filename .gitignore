@@ -289,3 +289,5 @@ __pycache__/
 
 build/
 .vscode/
+.vs/
+/CppProperties.json

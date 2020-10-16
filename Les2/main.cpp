@@ -13,7 +13,6 @@ int main(int argc, char const *argv[])
         simon.PrintNumbers();
 
         simon.HandleInput();
-
     } while (simon.CheckInput());
 
     std::cout << simon.Result();
