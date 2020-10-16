@@ -6,9 +6,10 @@ int main(int argc, char const *argv[])
     CoffeeMachine coffeeMachine = CoffeeMachine();
 
     std::vector<BaseCoin *> coins = {new BaseCoin, new FiftyCents, new Euro, new CoffeeCoin};
-    std::vector<BaseCoffee *> coffees = {new BaseCoffee, new Espresso, new Latte};
 
     //Debugging
+    // std::vector<BaseCoffee *> coffees = {new BaseCoffee, new Espresso, new Latte};
+
     // for (auto coin : coins)
     // {
     //     std::cout << coin->PrintValue() << std::endl;

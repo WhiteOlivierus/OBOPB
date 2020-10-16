@@ -46,9 +46,7 @@
 			"cctype": "cpp",
 			"string": "cpp",
 			"vector": "cpp",
-			"xtree": "cpp",
-			"atomic": "cpp",
-			"compare": "cpp"
+			"xtree": "cpp"
 		}
 	}
 }
